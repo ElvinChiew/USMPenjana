@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>611</width>
+    <height>333</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="projecttitle">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>0</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>SCOOP</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="durian">
+   <property name="geometry">
+    <rect>
+     <x>111</x>
+     <y>153</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="choc">
+   <property name="geometry">
+    <rect>
+     <x>111</x>
+     <y>84</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="Straw">
+   <property name="geometry">
+    <rect>
+     <x>111</x>
+     <y>107</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="boba">
+   <property name="geometry">
+    <rect>
+     <x>421</x>
+     <y>61</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="vannill_lbl">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>58</y>
+     <width>38</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Vanilla</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="choc_lbl">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>81</y>
+     <width>56</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Chocolate</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="strawlbl">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>104</y>
+     <width>64</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Strawberry</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="flava_lbl">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>35</y>
+     <width>42</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Flavour</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sprinkle_lbl">
+   <property name="geometry">
+    <rect>
+     <x>306</x>
+     <y>104</y>
+     <width>44</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>sprinkle</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="chiplbl">
+   <property name="geometry">
+    <rect>
+     <x>306</x>
+     <y>81</y>
+     <width>87</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>chcocolate chip</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="boba_lbl">
+   <property name="geometry">
+    <rect>
+     <x>306</x>
+     <y>58</y>
+     <width>28</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Boba</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="topping_lbl">
+   <property name="geometry">
+    <rect>
+     <x>306</x>
+     <y>35</y>
+     <width>46</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Topping</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cchip">
+   <property name="geometry">
+    <rect>
+     <x>421</x>
+     <y>84</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="sprink">
+   <property name="geometry">
+    <rect>
+     <x>421</x>
+     <y>107</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="total_lbl">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Total</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="calculateButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>260</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Calculate</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="resetButton">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>260</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Price_Lbl">
+   <property name="geometry">
+    <rect>
+     <x>201</x>
+     <y>41</y>
+     <width>28</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>price</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Price_Lbl2">
+   <property name="geometry">
+    <rect>
+     <x>526</x>
+     <y>48</y>
+     <width>28</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>price</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hargaVanilla">
+   <property name="geometry">
+    <rect>
+     <x>201</x>
+     <y>64</y>
+     <width>25</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>2.02</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hargaStrawberry">
+   <property name="geometry">
+    <rect>
+     <x>201</x>
+     <y>110</y>
+     <width>25</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1.66</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hargaChocolate">
+   <property name="geometry">
+    <rect>
+     <x>201</x>
+     <y>87</y>
+     <width>25</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1.40</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hargasprinkle">
+   <property name="geometry">
+    <rect>
+     <x>526</x>
+     <y>117</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0.5</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hargaBoba">
+   <property name="geometry">
+    <rect>
+     <x>526</x>
+     <y>71</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0.8</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hargaChocChip">
+   <property name="geometry">
+    <rect>
+     <x>526</x>
+     <y>94</y>
+     <width>18</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0.3</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="total_textBox">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>200</y>
+     <width>104</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="durian_lbl">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>150</y>
+     <width>37</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Durian</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cornlbl">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>127</y>
+     <width>27</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Corn</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="vanila">
+   <property name="geometry">
+    <rect>
+     <x>111</x>
+     <y>61</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="corn">
+   <property name="geometry">
+    <rect>
+     <x>111</x>
+     <y>130</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hargaDurian">
+   <property name="geometry">
+    <rect>
+     <x>201</x>
+     <y>156</y>
+     <width>25</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>5.00</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hargaCorn">
+   <property name="geometry">
+    <rect>
+     <x>201</x>
+     <y>133</y>
+     <width>25</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>3.00</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
